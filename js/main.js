@@ -7,3 +7,9 @@ $('.filter-button-group').on('click', 'button', function () {
     var filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
 });
+
+$('.portfolio-area .grid .test-popup-link').magnificPopup({
+    type: 'image',
+    gallery: { enabled: true }
+    // other options
+});
