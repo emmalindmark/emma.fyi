@@ -1,3 +1,8 @@
+/*Root variables*/
+:root {
+    --main-container-color: rgb(231, 231, 231);
+  }
+
 /* Navbar styling*/
 .navbar {
     background:orange;
@@ -70,7 +75,7 @@ p {
     margin-bottom: 100px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: rgb(231, 231, 231);
+    background-color: var(--main-container-color);
    /* border: 1px rgb(163, 146, 146) solid;*/
     /*background-color: rgba(230, 230, 230, 0.24);*/
 }
@@ -86,7 +91,7 @@ p {
 .site-main .portfolio-area {
     margin: 30px;
     padding: 4rem 0;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--main-container-color);
     margin-bottom: 30px;
 }
 
@@ -130,7 +135,7 @@ p {
         margin-right: 30px;
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: rgb(231, 231, 231);
+        background-color: var(--main-container-color);
        /* border: 1px rgb(163, 146, 146) solid;*/
         /*background-color: rgba(230, 230, 230, 0.24);*/
     
