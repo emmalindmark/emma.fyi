@@ -1,0 +1,18 @@
+/*for window size smaller or equal to*/
+@media only screen and (max-width:575px){
+    .header-image {
+        margin: auto;
+        display: block;
+    }
+    .header-col {
+        text-align: center;
+    }
+
+    .site-title {
+        font-size: 16vw;
+    }
+}
+
+@media only screen and (max-width:575px){
+   
+}

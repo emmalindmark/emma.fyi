@@ -1,3 +1,4 @@
+
 /*Root variables*/
 :root {
     --main-container-color: rgb(231, 231, 231);
@@ -30,7 +31,7 @@
 }
 
 /* fonts*/
-.site-title{
+.site-title {
     color: rgb(158, 157, 157);
     font-family: 'Economica';
     font-size: 100px;
@@ -68,6 +69,13 @@ p {
     padding-bottom: 50px;
     background: white
 }
+
+.header-image-div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
 
 /* site area*/
 .about-area {
