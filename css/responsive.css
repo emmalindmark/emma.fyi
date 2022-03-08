@@ -11,8 +11,10 @@
     .site-title {
         font-size: 16vw;
     }
-}
 
-@media only screen and (max-width:575px){
-   
+    .site-title:after { /* this is the border */
+        content:"";
+        display:block;
+        width: 0px;
+    }
 }
